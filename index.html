@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodTuck</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-flex">
+        <a href="#" class="logo">Food<span class="text-orange">tuck</span></a>
+
+        <nav class="navbar" id="navbar">
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-icons">
+          <div class="search-box">
+            <i class="fas fa-search search-btn"></i>
+            <input type="text" placeholder="Search..." class="search-input" />
+          </div>
+          <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i></a>
+          <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+
+          <div class="burger-menu" id="burgerBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="script-text">Its Quick & Amusing!</p>
+          <h1>
+            <span class="text-orange">The</span> Art of speed <br />
+            food Quality
+          </h1>
+          <p class="hero-desc">
+            Indulge in a culinary experience where speed meets excellence. Our
+            chefs use only the finest locally sourced ingredients to create
+            mouth-watering dishes that respect your time and satisfy your
+            cravings
+          </p>
+          <a href="#menu" class="btn btn-primary">See Menu</a>
+        </div>
+        <div class="hero-image">
+          <img src="./images/MainFoodPic.png" alt="Main Dish" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="script-text">About us</p>
+          <h2>
+            <span class="text-orange">We</span> Create the best <br />
+            foody product
+          </h2>
+          <p>
+            With a passion for gastronomy and a commitment to quality, we
+            transform simple ingredients into extraordinary culinary
+            experiences. We have been serving the city for over a decade,
+            ensuring that every bite tells a story of freshness and flavor.
+          </p>
+          <ul class="check-list">
+            <li>
+              <i class="fas fa-check"></i> Fresh Ingredients: Fresh, organic
+              ingredients sourced daily from local farmers to ensure the best
+              taste.
+            </li>
+            <li>
+              <i class="fas fa-check"></i> Expert Chefs: A team of world-class
+              professional chefs dedicated to culinary perfection.
+            </li>
+            <li>
+              <i class="fas fa-check"></i> Fast Delivery: Quick and reliable
+              service ensuring your meal arrives hot and ready to eat.
+            </li>
+          </ul>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+
+        <div class="about-images">
+          <img
+            src="./images/AboutFood1.jpg"
+            alt="About Food 1"
+            class="img-large"
+          />
+          <div class="img-col">
+            <img src="./images/AboutFood2.jpg" alt="About Food 2" />
+            <img src="./images/AboutFood3.jpg" alt="About Food 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="script-text">Food Category</p>
+          <h2><span class="text-orange">Ch</span>oose Food Item</h2>
+        </div>
+
+        <div class="category-grid">
+          <div class="cat-card">
+            <img src="./images/FastFood.jpg" alt="Fast Food" />
+            <div class="cat-overlay">
+              <span class="discount">Save 30%</span>
+              <div class="cat-label">Fast Food</div>
+            </div>
+          </div>
+          <div class="cat-card">
+            <img src="./images/Burger.jpg" alt="Burgers" />
+          </div>
+          <div class="cat-card">
+            <img src="./images/Salad.jpg" alt="Salad" />
+          </div>
+          <div class="cat-card">
+            <img src="./images/Donuts.jpg" alt="Donuts" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-choose-us">
+      <div class="container why-grid">
+        <div class="why-images">
+          <div class="collage-wrapper">
+            <img src="./images/why-us.jpg.png" alt="Why us main" />
+          </div>
+        </div>
+
+        <div class="why-text">
+          <p class="script-text">Why Choose us</p>
+          <h2>
+            <span class="text-orange">Ex</span>traordinary Taste And Experience
+            <br />
+          </h2>
+          <p>
+            We pride ourselves on serving not just food, but an experience. With
+            over 30 years of culinary excellence, our extraordinary taste comes
+            from a perfect blend of fresh ingredients, passion, and traditional
+            recipes.
+          </p>
+
+          <div class="features-row">
+            <div class="feature-box">
+              <div class="icon-box"><i class="fas fa-hamburger"></i></div>
+              <p>Fast Food</p>
+            </div>
+            <div class="feature-box">
+              <div class="icon-box"><i class="fas fa-cookie"></i></div>
+              <p>Lunch</p>
+            </div>
+            <div class="feature-box">
+              <div class="icon-box"><i class="fas fa-wine-glass"></i></div>
+              <p>Dinner</p>
+            </div>
+          </div>
+
+          <div class="experience-box">
+            <span class="big-num">30+</span>
+            <div class="exp-text">
+              <span>Years of</span>
+              <strong>Experienced</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <i class="fas fa-user-friends"></i>
+          <h3 class="counter" data-target="420">420</h3>
+          <p>Professional Chefs</p>
+        </div>
+        <div class="stat-item">
+          <i class="fas fa-burger"></i>
+          <h3 class="counter" data-target="320">320</h3>
+          <p>Items Of Food</p>
+        </div>
+        <div class="stat-item">
+          <i class="fas fa-utensils"></i>
+          <h3 class="counter" data-target="30">30+</h3>
+          <p>Years Of Experienced</p>
+        </div>
+        <div class="stat-item">
+          <i class="fas fa-pizza-slice"></i>
+          <h3 class="counter" data-target="220">2k+</h3>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-title">
+          <h4 class="text-orange">Choose & pick</h4>
+          <h2><span class="text-orange">Fr</span>om Our Menu</h2>
+        </div>
+
+        <ul class="menu-tabs">
+          <li class="menu-tab active" data-category="breakfast">Breakfast</li>
+          <li class="menu-tab" data-category="lunch">Lunch</li>
+          <li class="menu-tab" data-category="dinner">Dinner</li>
+          <li class="menu-tab" data-category="dessert">Dessert</li>
+          <li class="menu-tab" data-category="drink">Drink</li>
+        </ul>
+
+        <div class="menu-content-wrapper">
+          <div class="menu-featured-image">
+            <img
+              src="images/main-plate.png"
+              alt="Featured Plate"
+              id="featuredImg"
+            />
+          </div>
+
+          <div class="menu-grid" id="menuGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cocktails-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="script-text">Special Offer</p>
+          <h2><span class="text-orange">Fr</span>om Our Bar</h2>
+        </div>
+
+        <div class="bar-controls">
+          <input
+            type="text"
+            id="cocktailSearch"
+            placeholder="Search Cocktail (e.g. Mojito)..."
+            class="bar-search-input"
+          />
+
+          <div class="bar-filter-buttons">
+            <button class="filter-btn active" data-type="margarita">
+              Today's Choice
+            </button>
+            <button class="filter-btn" data-type="Alcoholic">Alcoholic</button>
+            <button class="filter-btn" data-type="Non_Alcoholic">
+              Non Alcoholic
+            </button>
+          </div>
+        </div>
+
+        <div id="cocktailContainer" class="cocktails-grid"></div>
+
+        <p
+          id="noCocktailMsg"
+          style="
+            text-align: center;
+            color: red;
+            display: none;
+            margin-top: 20px;
+          "
+        >
+          No cocktails found!
+        </p>
+      </div>
+    </section>
+
+    <section id="chefs" class="chefs-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="script-text">Chefs</p>
+          <h2><span class="text-orange">Me</span>et Our Chef</h2>
+        </div>
+
+        <div class="chefs-grid" id="chefsContainer">
+          <div class="chef-card">
+            <img src="./images/chef-1.png" alt="Chef" />
+          </div>
+          <div class="chef-card">
+            <img src="./images/chef-2.png" alt="Chef" />
+            <div class="chef-info"></div>
+          </div>
+          <div class="chef-card">
+            <img src="./images/chef-3.png" alt="Chef" />
+          </div>
+          <div class="chef-card">
+            <img src="./images/chef-4.png" alt="Chef" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-title text-left">
+          <h4 class="text-orange">Testimonials</h4>
+          <h2 class="text-white">What our client are saying</h2>
+        </div>
+
+        <div class="testimonial-slider-container">
+          <div class="testimonial-track" id="testimonialTrack"></div>
+        </div>
+
+        <div class="testimonial-dots" id="testimonialDots"></div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+      <div class="container">
+        <div class="section-title">
+          <p class="script-text">Blog Post</p>
+          <h2><span class="text-orange">La</span>test News & Blog</h2>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="images/blog-1.jpg" alt="Blog 1" />
+            </div>
+            <div class="blog-content">
+              <span class="date">10 jan 2025</span>
+              <h4>The Secret Ingredient to the Perfect Juicy Burger</h4>
+              <div class="blog-footer">
+                <a href="#">Learn More</a>
+                <div class="blog-actions">
+                  <i class="far fa-thumbs-up"></i>
+                  <i class="far fa-comment"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="images/blog-2.jpg" alt="Blog 2" />
+            </div>
+            <div class="blog-content">
+              <span class="date">10 jan 2026</span>
+              <h4>The Art of Wood-Fired Pizza: A Crispy Delight</h4>
+              <div class="blog-footer">
+                <a href="#">Learn More</a>
+                <div class="blog-actions">
+                  <i class="far fa-thumbs-up"></i>
+                  <i class="far fa-comment"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="images/blog-3.jpg" alt="Blog 3" />
+            </div>
+            <div class="blog-content">
+              <span class="date">10 jan 2026</span>
+              <h4>Spicy & Tangy: The Ultimate Street Taco Experience</h4>
+              <div class="blog-footer">
+                <a href="#">Learn More</a>
+                <div class="blog-actions">
+                  <i class="far fa-thumbs-up"></i>
+                  <i class="far fa-comment"></i>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="auth-section"
+      style="padding: 50px 0; background: #1a1a1a; text-align: center"
+    >
+      <div class="container">
+        <div class="section-title">
+          <p class="script-text">Join Us</p>
+          <h2>Register / Contact</h2>
+        </div>
+
+        <form
+          id="authForm"
+          style="
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 400px;
+            margin: 0 auto;
+          "
+        >
+          <input
+            type="text"
+            id="username"
+            placeholder="Full Name"
+            style="padding: 12px; border-radius: 5px; border: 1px solid #ddd"
+            required
+          />
+
+          <div>
+            <input
+              type="text"
+              id="email"
+              placeholder="Email Address"
+              style="
+                padding: 12px;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                width: 100%;
+                box-sizing: border-box;
+              "
+              required
+            />
+            <span
+              id="emailError"
+              style="
+                color: red;
+                font-size: 12px;
+                display: none;
+                text-align: left;
+                margin-top: 5px;
+              "
+              >Invalid Email Format</span
+            >
+          </div>
+
+          <div class="password-wrapper" style="position: relative">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              style="
+                width: 100%;
+                padding: 12px;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+              "
+              required
+            />
+            <i
+              class="fas fa-eye"
+              id="togglePassword"
+              style="
+                position: absolute;
+                right: 15px;
+                top: 15px;
+                cursor: pointer;
+                color: #333;
+              "
+            ></i>
+          </div>
+
+          <div class="password-wrapper" style="position: relative">
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirm Password"
+              style="
+                width: 100%;
+                padding: 12px;
+                border-radius: 5px;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+              "
+              required
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="btn-primary"
+            style="padding: 12px; cursor: pointer"
+          >
+            Register Now
+          </button>
+          <p
+            id="formMessage"
+            style="font-size: 14px; margin-top: 10px; text-align: center"
+          ></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container newsletter-row">
+        <div class="newsletter-text">
+          <h3><span class="text-orange">St</span>ill You Need Our Support ?</h3>
+          <p>Don't wait make a smart & logical quote here. Its pretty easy.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Enter Your Email" required />
+          <button type="submit" class="btn-primary">Subscribe Now</button>
+        </form>
+      </div>
+
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <h4>About Us.</h4>
+          <p>
+            corporate clients and leisure travelers has been relying on
+            Groundlink for dependab safe, and professional chauffeured car
+            service in major cities across World.
+          </p>
+          <div class="opening-hours">
+            <div class="icon-box-orange"><i class="fas fa-clock"></i></div>
+            <div>
+              <h5>Opening Houres</h5>
+              <p>Mon - Sat(8.00 - 6.00)</p>
+              <p>Sunday - Closed</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Help?</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Term & conditions</a></li>
+            <li><a href="#">Reporting</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Support Policy</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Recent Post</h4>
+          <div class="recent-posts">
+            <div class="post-item">
+              <img src="images/post-1.jpg" alt="Post" />
+              <div>
+                <span>20 Feb 2022</span>
+                <p>How to make Pizza</p>
+              </div>
+            </div>
+            <div class="post-item">
+              <img src="images/post-2.webp" alt="Post" />
+              <div>
+                <span>20 Feb 2022</span>
+                <p>How to make Xachapuri</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container bottom-flex">
+          <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top-btn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div id="cookieBox" class="cookie-box">
+      <div class="cookie-content">
+        <p>
+          🍪 We use cookies to ensure you get the best experience on our
+          website.
+        </p>
+        <button id="acceptCookie" class="btn-primary">Accept</button>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
